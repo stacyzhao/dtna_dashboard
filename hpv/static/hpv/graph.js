@@ -23,8 +23,8 @@ jQuery(function($) {
       });
 
       for (i = 0; i < data.length; i++) {
-          time = new Date(data[i]["timestamp"]).getTime()
-          graphData[0].values.push([time, data[i]["PLANT_d_hours_per_unit"]]);
+        time = new Date(data[i]["timestamp"]).getTime()
+        graphData[0].values.push([time, data[i]["PLANT_d_hours_per_unit"]]);
       };
 
       nv.addGraph(function() {
@@ -38,7 +38,7 @@ jQuery(function($) {
           .axisLabel('Time')
           .tickForDEPT9(function(d) {
               return d3.time.forDEPT9('%H:%M')(new Date(d))
-            });
+          });
 
         chart.yDomain([0, 140])
         chart.yAxis

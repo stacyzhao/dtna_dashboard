@@ -1,27 +1,17 @@
-
 /*Nav bar*/
 .bg-faded {
-    background-color: #f7f7f9;
+  background-color: #f7f7f9;
 }
-.navbar{
-    margin-bottom: 8px;
+.navbar {
+  margin-bottom: 8px;
 }
 .navbar-toggler {
-    padding: .5rem .75rem;
-    font-size: 3.25rem;
-    line-height: 1;
-    background: 0 0;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-}
-
-/*Login Form*/
-.form-control {
-    border-radius: 10px;
-}
-
-.login-form, .wrapper {
-  text-align: center;
+  padding: .5rem .75rem;
+  font-size: 3.25rem;
+  line-height: 1;
+  background: 0 0;
+  border: 1px solid transparent;
+  border-radius: .25rem;
 }
 
 /*Container/Body*/
@@ -48,10 +38,6 @@ body {
   margin-bottom: 10px;
 }
 
-#row top {
-  background:white;
-}
-
 #heatmap {
   margin-bottom: 20px;
 }
@@ -71,9 +57,9 @@ h4.brand {
 }
 
 /*Text*/
-
 a {
   color: white;
+  text-decoration: none;
 }
 
 p {
@@ -90,7 +76,6 @@ p {
 }
 
 /*Table*/
-
 td, th {
   font-size: 18px;
   width: 4rem;
@@ -158,6 +143,7 @@ text.axis-shift2 {
   fill: #0000cd;
 }
 
+/* Buttons */
 .btn-default {
   letter-spacing: 1px;
   margin: 5px;
@@ -170,7 +156,7 @@ text.axis-shift2 {
   color: white;
 }
 
-/*Detail line graph*/
+/* Detail line graph */
 #line path {
     stroke: steelblue;
     stroke-width: 2;
@@ -179,15 +165,15 @@ text.axis-shift2 {
 
 #line .axis path,
 #line .axis line {
-    fill: none;
-    stroke: grey;
-    stroke-width: 1;
-    shape-rendering: crispEdges;
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
 }
 
 .dashed {
-    stroke-width: 1;
-    stroke-dasharray: 5,5;
+  stroke-width: 1;
+  stroke-dasharray: 5,5;
 }
 
 .legend rect {
@@ -197,16 +183,10 @@ text.axis-shift2 {
 }
 
 .grid .tick {
-    stroke: lightgrey;
-    opacity: 0.7;
+  stroke: lightgrey;
+  opacity: 0.7;
 }
 
 .grid path {
       stroke-width: 0;
-}
-
-.legend {
-    font-size: 12px;
-    font-weight: bold;
-    text-anchor: middle;
 }
